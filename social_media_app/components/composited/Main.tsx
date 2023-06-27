@@ -4,7 +4,6 @@ import { getData } from "@/lib/getData";
 import dynamic from "next/dynamic";
 const Main = async () => {
   const data = await getData();
-  console.log(data);
   const LazyLoading = dynamic(() => import("./Post"));
   return (
     <div className="flex w-full flex-col items-center my-5">

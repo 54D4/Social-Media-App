@@ -1,6 +1,7 @@
 import IconLink from "../generic/IconLink";
 import Logo from "../generic/Logo";
 import Serch from "../generic/Serch";
+import Notifications from "./Notifications";
 
 const Header = () => {
   return (
@@ -12,7 +13,7 @@ const Header = () => {
       <div className="flex">
         <IconLink src={"/home.png"} />
         <IconLink src={"/user.png"} />
-        <IconLink src={"/notification.png"} />
+        <Notifications />
       </div>
     </div>
   );
