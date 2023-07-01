@@ -5,6 +5,7 @@ import dynamic from "next/dynamic";
 const Main = async () => {
   const data = await getData();
   const LazyLoading = dynamic(() => import("./Post"));
+
   return (
     <div className="flex w-full flex-col items-center my-5">
       {data.map((e: any) => (

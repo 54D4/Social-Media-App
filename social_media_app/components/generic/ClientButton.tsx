@@ -8,7 +8,7 @@ const ClientButton = ({
 }) => {
   return (
     <button
-      className="px-3 py-1 bg-blue-400 rounded-xl drop-shadow-lg"
+      className="px-3 mx-10 py-1 bg-blue-400 rounded-xl drop-shadow-lg"
       onClick={() => clickHandler}
     >
       {name}

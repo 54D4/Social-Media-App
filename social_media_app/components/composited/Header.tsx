@@ -11,9 +11,10 @@ const Header = () => {
         <Serch />
       </div>
       <div className="flex">
-        <IconLink src={"/home.png"} />
-        <IconLink src={"/user.png"} />
+        <IconLink href="/" src={"/home.png"} />
+        <IconLink href="/user" src={"/user.png"} />
         <Notifications />
+        <IconLink href="/" src={"/logout.png"} />
       </div>
     </div>
   );
