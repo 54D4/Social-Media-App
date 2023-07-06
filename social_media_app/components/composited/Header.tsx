@@ -14,7 +14,7 @@ const Header = () => {
         <IconLink href="/" src={"/home.png"} />
         <IconLink href="/user" src={"/user.png"} />
         <Notifications />
-        <IconLink href="/" src={"/logout.png"} />
+        <IconLink href="/login" src={"/logout.png"} />
       </div>
     </div>
   );
